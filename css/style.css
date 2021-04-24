@@ -713,7 +713,6 @@ main{
 
 .blog{
     width: 100%;
-    overflow: hidden;
     margin-top: 60px;
 }
 
@@ -1364,6 +1363,7 @@ footer{
 
     .work{
         padding: 50px 0;
+        background: url('../img/close-up-minimalist-shot-generic-laptop-computer-working-accessories-resting-wooden-table-min.jpg') center / cover fixed;
     }
 
     .work_title{
@@ -1384,12 +1384,21 @@ footer{
         width: 90%;
         margin-bottom: 60px;
     }
+
+    .statistic{
+        background: url('../img/people-talking-each-other-before-meeting-min.jpg') center / cover fixed;
+    }
 }
 
 @media screen and (max-width: 510px){
 
     header{
         height: 650px;
+        background: url('../img/high-angle-view-laptop-stationeries-succulent-plant-bright-background-min.jpg') center / cover fixed;
+    }
+
+    .contact_content{
+        background: url('../img/successful-computer-gadget-digital-close-min.jpg') center / cover;
     }
     
     .about_child img{
